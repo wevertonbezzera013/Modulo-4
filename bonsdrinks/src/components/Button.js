@@ -21,10 +21,4 @@ export const Button = ({
     const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0]
 
     const checkButtonSize = SIZE.includes(buttonSize) ? buttonSize : SIZE[0]
-
-   // return {
-       // <button className={`btn ${checkButtonStyle} ${checkButtonSize}`} onclick={onClick} type={type}>
-      //      {children}
-//</button>
- //   }
 };

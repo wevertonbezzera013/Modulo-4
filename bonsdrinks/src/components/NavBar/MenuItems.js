@@ -23,10 +23,5 @@ export const MenuItems = [
         title: 'Nosso Time',
         url: '#',
         cName: "nav-links",
-    },
-    {
-        title: 'Inscreva-se',
-        url: '#',
-        cName: "nav-links-mobile",
     }
 ]
