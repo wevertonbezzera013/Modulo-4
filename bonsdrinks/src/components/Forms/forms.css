@@ -4,10 +4,30 @@
     padding: 0.5rem 1rem;
     background-color: rgb(255, 70, 45);
     border-radius: 4px;
+    margin-top: 10px;
 }
 
 .send-btn:hover{
     background-color: rgb(196, 106, 94);
     border-radius: 4px;
     transition: all 0.2s ease;
+}
+
+form {
+    overflow: hidden;
+}
+ 
+input {
+    float: left;
+    margin-top: 10px;
+}
+
+section {
+    margin-top: 100px;
+    display: grid;
+    justify-items: center;
+}
+
+textarea{
+    margin-top: 10px;
 }
