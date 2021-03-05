@@ -1,11 +1,11 @@
 import React, { useState  } from 'react';
-import { Button } from '../Button';
 import './forms.css'
-
+import './forms-validation'
 class Forms extends React.Component {
     render() {
         return(
             <>
+                <div className="erro"></div>
                 <div className='form-container'>
                     <div className='form-content-left'>
                         <div className='txt-left'>Nos conte tudinho.</div><br/>
