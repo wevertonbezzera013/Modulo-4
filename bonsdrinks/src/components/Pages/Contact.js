@@ -1,13 +1,15 @@
 import React from 'react';
 import NavBar from '../NavBar/NavBar';
+import Forms from '../Forms/forms';
 
-function Home() {
+function Contact() {
   return (
     <div className="App">
         <NavBar/>
-        <p>HOME COM NAVBAR FUNCIONOU</p>
+        <Forms/>
+        <p>FORMS COM NAVBAR FUNCIONOU</p>
     </div>
   );
 }
 
-export default Home;
+export default Contact;
