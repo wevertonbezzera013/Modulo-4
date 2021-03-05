@@ -7,7 +7,6 @@ function Contact() {
     <div className="App">
         <NavBar/>
         <Forms/>
-        <p>FORMS COM NAVBAR FUNCIONOU</p>
     </div>
   );
 }
